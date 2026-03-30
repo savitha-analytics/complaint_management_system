@@ -51,14 +51,20 @@ The Complaint Management System is a console-based application that allows users
 
 ## 🗂️ Project Structure
 ```
-complaint-management-system/
+complaint_system
 │
-├── dao/
+├── dao
+│   ├── AdminDao.java
+│   ├── ComplaintDao.java
 │   ├── DBConnection.java
-│   ├── AdminDAO.java
-│   └── ComplaintDAO.java
+│   └── UserDao.java
 │
-├── ui/
+├── model
+│   ├── Admin.java
+│   ├── Complaint.java
+│   └── User.java
+│
+├── ui
 │   └── Main.java
 ```
 
